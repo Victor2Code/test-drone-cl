@@ -3,4 +3,3 @@ pipeline:
     image: python
     commands:
       - pip install --upgrade setuptools -r requirements.txt
-      - pytest
