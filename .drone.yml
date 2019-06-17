@@ -2,5 +2,5 @@ pipeline:
   test:
     image: python
     commands:
-      - pip install -r requirements.txt
+      - pip install --upgrade setuptools -r requirements.txt
       - pytest
